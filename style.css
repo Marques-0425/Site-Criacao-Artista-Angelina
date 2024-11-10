@@ -1,0 +1,351 @@
+body {
+	margin: 0px;
+	padding: 30px 60px !important;
+	overflow-x: hidden;
+	background-color: #F1F7FA;
+}
+
+/* Parte 1 */
+.cabecario {
+	display: flex;
+	color: #67c7b1;;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 55vw 0px 0px;
+  color: #dbd704;
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+
+.logo:hover {
+	color: #adaa03;
+}
+
+.trabalhos, .encomendas, .sobre, .loja {
+	margin: 0px 10px;
+	cursor: pointer;
+	transition: color 0.5s ease;
+}
+
+.trabalhos:hover, .encomendas:hover, .sobre:hover, .loja:hover {
+	color: #2a967e;
+}
+
+.linha1 {
+	width: 100%;
+	height: 0.2vh;
+	background-color: #A3C1E5;
+	margin: 1vh 0vw 7vh 0vw;
+}
+
+/* Parte 2 */
+.fundo1 {
+	display: flex;
+	gap: 2vw;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+	color: #67c7b1;;
+}
+
+.vindo {
+	margin: 0vh 0vw 2vh 0vw;
+	padding: 0px;
+	font-size: 1.2em;
+}
+
+.linha2 {
+	width: 100%;
+	height: 0.5vh;
+	background-color: #A3C1E5;
+	margin: 3vh 0vw 6vh 0vw;
+}
+
+.law, .sorisso, .peixe2 {
+	margin: 0vh 0vw 0vh 1.5vw;
+}
+
+/* Parte 3 */
+.fundo2 {
+	display: flex;
+	gap: 2vw;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+	color: #67c7b1;
+	margin: 10vh 0vw 0vh 0vw;
+	flex-direction: column;
+}
+
+.peca {
+	margin: 0vh 0vw 2vh 0vw;
+	padding: 0px;
+	font-size: 1.3em;
+}
+
+.imagens {
+	display: flex;
+	gap: 20px;
+}
+
+.linha3 {
+	width: 100%;
+	height: 0.5vh;
+	background-color: #A3C1E5;
+	margin: 1vh 0vw 3vh 0vw;
+}
+
+.man, .heresia, .peixe {
+	font-weight: bolder;
+	color: #C9A9E3;
+	margin: 0vh 0vw 2vh 0vw;
+	transition: opacity 1s ease;
+}
+
+.valeu:hover, .posse:hover, .peixe1:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.amostra {
+	margin: 0vh 0vw 2vh 0vw;
+}
+
+.linha4 {
+	height: 99.2%;
+	width: 0.5vh;
+	background-color: #A3C1E5;
+	margin: 0vh 1.5vw 3vh 0vw;
+}
+
+.social {
+	width: 20vw;
+	font-size: 17px;
+	margin: 0px 1.3vw 0px 0px;
+}
+
+.exemplos {
+	font-size: 1.3em;
+	width: 27vw;
+}
+
+/* Parte 4 */
+.fundo3 {
+	display: flex;
+	gap: 2vw;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+	color: #67c7b1;
+	margin: 10vh 0vw 0vh 0vw;
+	flex-direction: column;
+}
+
+.linha6 {
+	width: 100%;
+	height: 0.5vh;
+	background-color: #A3C1E5;
+	margin: 2vh 0vw 2vh 0vw;
+}
+
+.linhas {
+	display: flex;
+	gap: 20px;
+}
+
+.redes {
+	display: flex;
+	margin: 0vh 0vw 0vh 0vw;
+	align-items: top;
+}
+
+.linha5 {
+	height: 99.2%;
+	width: 0.5vh;
+	background-color: #A3C1E5;
+	margin: 0vh 0vw 3vh 0vw;
+}
+
+.rede {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pinterest, .facebook, .instagram, .twitter {
+	height: 9vh;
+	width: 9vw;
+	margin: 1vh 0vw;
+	display: flex;
+	transition: transform 0.5s ease;
+	fill: white;
+}
+
+.pinterest:hover, .facebook:hover, .instagram:hover, .twitter:hover {
+	transform: scale(1.2);
+}
+
+.encontre {
+	color: #C9A9E3;
+	font-weight: bolder;
+	font-size: 1.8vw;
+}
+
+.sociais {
+	font-size: 2vw;
+}
+
+/* Parte 5 */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px 20px;
+  background: none;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.footer-section h3 {
+  font-size: 1.5em;
+  color: #ffd700;
+  margin-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-section h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #A3C1E5;
+  margin: 8px auto;
+  border-radius: 5px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+  color: #67c7b1;
+  font-size: 1em;
+}
+
+.footer-section button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #C9A9E3;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.footer-section button:hover {
+  background-color: #e0c6f5;
+  transform: translateY(-3px);
+}
+
+.footer-section textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #ffd700;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #363636;
+  border-radius: 5px;
+  resize: vertical;
+  transition: box-shadow 0.3s;
+}
+
+.footer-section textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.rights {
+  flex: 1 100%;
+  text-align: center;
+  margin: 1vh 0vw 0vh 36vw;
+  font-size: 0.9em;
+  color: #dcdcdc;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1020px) {
+  .trabalhos, .encomendas, .loja, .sobre {
+   display: none;
+  }
+  .logo {
+    margin: 0;
+  }
+  .flora {
+    width: 66.5vw;
+    height: 60vh;
+    display: grid;
+    margin: 0vh 0vw 2vh 0vw;
+  }
+  .fundo1 {
+    display: block;
+  }
+  .linha1 {
+    margin: 1vh 0vw 2vh 0vh;
+  }
+  .law, .sorisso, .peixe2 {
+    padding: 0vh 0vw 1vh 0vw;
+    margin: 0;
+    height: 50vh;
+    width: 66vw;
+  }
+  .peca {
+    margin: 0;
+    padding: 0;
+  }
+  .fundo2 {
+    margin: 0;
+  }
+  .imagens {
+    display: block;
+  }
+  .valeu, .posse, .peixe1 {
+    margin: 0vh 0vw 3vh 0vw;
+  }
+  .exemplos {
+    width: 66vw;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+  }
+  .fundo3 {
+    margin: 0;
+  }
+  .encontre {
+    font-size: 4vw;
+  }
+  .sociais {
+    font-size: 0.8em;
+  }
+  .twitter, .pinterest, .facebook, .instagram {
+    margin: 0vh 2vw;
+  }
+}
